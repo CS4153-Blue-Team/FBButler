@@ -19,6 +19,7 @@
 		F35C3FC519ED6F88000D90CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35C3FAD19ED6F88000D90CC /* UIKit.framework */; };
 		F35C3FCD19ED6F88000D90CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F35C3FCB19ED6F88000D90CC /* InfoPlist.strings */; };
 		F35C3FCF19ED6F88000D90CC /* FBButlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F35C3FCE19ED6F88000D90CC /* FBButlerTests.m */; };
+		F35C3FD919ED72D7000D90CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35C3FD819ED72D7000D90CC /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		F35C3FCA19ED6F88000D90CC /* FBButlerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBButlerTests-Info.plist"; sourceTree = "<group>"; };
 		F35C3FCC19ED6F88000D90CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F35C3FCE19ED6F88000D90CC /* FBButlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBButlerTests.m; sourceTree = "<group>"; };
+		F35C3FD819ED72D7000D90CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				F35C3FB919ED6F88000D90CC /* AppDelegate.m */,
 				F35C3FBB19ED6F88000D90CC /* Images.xcassets */,
 				F35C3FB019ED6F88000D90CC /* Supporting Files */,
+				F35C3FD819ED72D7000D90CC /* Main.storyboard */,
 			);
 			path = FBButler;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35C3FD919ED72D7000D90CC /* Main.storyboard in Resources */,
 				F35C3FB419ED6F88000D90CC /* InfoPlist.strings in Resources */,
 				F35C3FBC19ED6F88000D90CC /* Images.xcassets in Resources */,
 			);
@@ -441,6 +445,7 @@
 				F35C3FD419ED6F88000D90CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F35C3FD519ED6F88000D90CC /* Build configuration list for PBXNativeTarget "FBButlerTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +454,7 @@
 				F35C3FD719ED6F88000D90CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
